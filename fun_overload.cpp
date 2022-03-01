@@ -1,4 +1,5 @@
-/*This is a comment*/
+/*This is a comment
+New Line added*/
 
 #include<iostream>
 using namespace std;
@@ -17,9 +18,9 @@ class printdata {
 
 int main()
 {
-	printdata pd;
-	pd.print(5);
-	pd.print(10.5f);
-	pd.print("C PLUS PLUS");
+	printdata p;
+	p.print(5);
+	p.print(10.5f);
+	p.print("C PLUS PLUS");
 	return 0;	
 }
